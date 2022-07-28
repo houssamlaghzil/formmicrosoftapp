@@ -1,0 +1,73 @@
+[debug] [2022-07-28T13:19:31.219Z] ----------------------------------------------------------------------
+[debug] [2022-07-28T13:19:31.222Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hlagh\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-07-28T13:19:31.222Z] CLI Version:   11.4.0
+[debug] [2022-07-28T13:19:31.223Z] Platform:      win32
+[debug] [2022-07-28T13:19:31.223Z] Node Version:  v16.13.2
+[debug] [2022-07-28T13:19:31.224Z] Time:          Thu Jul 28 2022 15:19:31 GMT+0200 (heure d’été d’Europe centrale)
+[debug] [2022-07-28T13:19:31.224Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-07-28T13:19:31.234Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-07-28T13:19:31.235Z] > authorizing via signed-in user (houssam.laghzil@edu.itescia.fr)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\hlagh\Documents\Code\formmicrosoftapp
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-07-28T13:19:40.140Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-07-28T13:19:40.644Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-07-28T13:19:40.645Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project retournappform (formmicrosoftapp) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-07-28T13:19:59.072Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-07-28T13:19:59.119Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-07-28T13:19:59.119Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.9.1","browserURL":"https://www.gstatic.com/firebasejs/9.9.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.9.1/firebase.tgz"},"live":{"version":"9.9","browserURL":"https://www.gstatic.com/firebasejs/live/9.9/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.9/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.9.1/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.9.1/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.9.1/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.9.1/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.9.1/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.9.1/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.9.1/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.9.1/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.9.1/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.9.1/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.9.1/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.9.1/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.9.1/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.9.1/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.9.1/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.9.1/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.9.1/firebase-firestore.memory.js"}}
+[info] +  Wrote public/index.html 
+[info] 
+[info] i  Detected a .git folder at C:\Users\hlagh\Documents\Code\formmicrosoftapp 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=425326150&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-07-28T13:20:07.023Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2022-07-28T13:20:07.023Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2022-07-28T13:20:07.310Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2022-07-28T13:20:07.310Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2022-07-28T13:20:07.317Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-07-28T13:20:07.617Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-07-28T13:20:07.617Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"houssamlaghzil","id":55235012,"node_id":"MDQ6VXNlcjU1MjM1MDEy","avatar_url":"https://avatars.githubusercontent.com/u/55235012?v=4","gravatar_id":"","url":"https://api.github.com/users/houssamlaghzil","html_url":"https://github.com/houssamlaghzil","followers_url":"https://api.github.com/users/houssamlaghzil/followers","following_url":"https://api.github.com/users/houssamlaghzil/following{/other_user}","gists_url":"https://api.github.com/users/houssamlaghzil/gists{/gist_id}","starred_url":"https://api.github.com/users/houssamlaghzil/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/houssamlaghzil/subscriptions","organizations_url":"https://api.github.com/users/houssamlaghzil/orgs","repos_url":"https://api.github.com/users/houssamlaghzil/repos","events_url":"https://api.github.com/users/houssamlaghzil/events{/privacy}","received_events_url":"https://api.github.com/users/houssamlaghzil/received_events","type":"User","site_admin":false,"name":"houssam laghzil","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":19,"public_gists":0,"followers":3,"following":4,"created_at":"2019-09-12T09:36:20Z","updated_at":"2022-07-28T13:20:04Z","private_gists":0,"total_private_repos":6,"owned_private_repos":6,"disk_usage":613065,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"pro","space":976562499,"collaborators":0,"private_repos":9999}}
+[info] 
+[info] +  Success! Logged into GitHub as houssamlaghzil 
+[info] 
+[debug] [2022-07-28T13:20:13.705Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-07-28T13:20:13.922Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-07-28T13:20:13.922Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-07-28T13:20:15.842Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-07-28T13:20:16.035Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-07-28T13:20:16.035Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-07-28T13:20:17.030Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-07-28T13:20:17.229Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-07-28T13:20:17.230Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-07-28T13:20:18.126Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-07-28T13:20:18.317Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-07-28T13:20:18.317Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
