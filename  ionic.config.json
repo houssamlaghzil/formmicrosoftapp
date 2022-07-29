@@ -1,0 +1,7 @@
+{
+  "name": "formreturnapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
